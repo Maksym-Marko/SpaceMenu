@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Space menu. Demo</title>
+	<link rel="stylesheet" href="./assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/demo_style.css">
+</head>
+<body>
+
+	<header>
+		<ul class="menu">
+			<li><a href="index.html"><i class="fa fa-info" aria-hidden="true"></i></a></li>
+			<li class="mx-animation_flicker"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+			<li><a href="index.html"><i class="fa fa-weibo" aria-hidden="true"></i></a>
+				<ul>
+					<li><a href="index.html"><i class="fa fa-free-code-camp" aria-hidden="true"></i></a></li>
+					<li><a href="index.html"><i class="fa fa-window-restore" aria-hidden="true"></i></a>
+						<ul>
+							<li><a href="index.html"><i class="fa fa-address-book-o" aria-hidden="true"></i></a></li>
+							<li><a href="index.html"><i class="fa fa-id-card" aria-hidden="true"></i></a></li>
+							<li><a href="index.html"><i class="fa fa-window-maximize" aria-hidden="true"></i></a></li>
+							<li><a href="index.html"><i class="fa fa-imdb" aria-hidden="true"></i></a></li>
+							<li><a href="index.html"><i class="fa fa-archive" aria-hidden="true"></i></a></li>
+							<li><a href="index.html"><i class="fa fa-calculator" aria-hidden="true"></i></a></li>
+							<li><a href="index.html"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i></a></li>
+						</ul>
+					</li>
+					<li><a href="index.html"><i class="fa fa-university" aria-hidden="true"></i></a>
+						<ul>
+							<li><a href="index.html"><i class="fa fa-usd" aria-hidden="true"></i></a></li>
+							<li><a href="index.html"><i class="fa fa-eur" aria-hidden="true"></i></a></li>
+							<li><a href="index.html"><i class="fa fa-rub" aria-hidden="true"></i></a></li>
+							<li><a href="index.html"><i class="fa fa-unlock-alt" aria-hidden="true"></i></a></li>
+						</ul>
+					</li>
+					<li><a href="index.html"><i class="fa fa-snowflake-o" aria-hidden="true"></i></a></li>
+					<li><a href="index.html"><i class="fa fa-etsy" aria-hidden="true"></i></a></li>
+					<li><a href="index.html"><i class="fa fa-quora" aria-hidden="true"></i></a></li>
+				</ul>
+			</li>
+			<li><a href="index.html"><i class="fa fa-users" aria-hidden="true"></i></a>
+				<ul>
+					<li><a href="index.html"><i class="fa fa-male" aria-hidden="true"></i></a></li>
+					<li><a href="index.html"><i class="fa fa-female" aria-hidden="true"></i></a></li>
+					<li><a href="index.html"><i class="fa fa-child" aria-hidden="true"></i></a></li>
+					<li><a href="index.html"><i class="fa fa-smile-o" aria-hidden="true"></i></a></li>
+					<li><a href="index.html"><i class="fa fa-meh-o" aria-hidden="true"></i></a></li>
+				</ul>
+			</li>
+			<li class="mx-animation_pulse"><a href="index.html"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+			<li><a href="index.html"><i class="fa fa-wpexplorer" aria-hidden="true"></i></a></li>
+			<li><a href="index.html"><i class="fa fa-comments-o" aria-hidden="true"></i></a>
+				<ul>
+					<li><a href="index.html"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="index.html"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="index.html"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+					<li><a href="index.html"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="index.html"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+					<li><a href="index.html"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					<li><a href="index.html"><i class="fa fa-futbol-o" aria-hidden="true"></i></a></li>
+				</ul>
+			</li>
+			<li><a href="index.html"><i class="fa fa-diamond" aria-hidden="true"></i></a></li>
+			<li><a href="index.html"><i class="fa fa-money" aria-hidden="true"></i></a></li>
+			<li><a href="index.html"><i class="fa fa-credit-card" aria-hidden="true"></i></a></li>
+			<li><a href="index.html"><i class="fa fa-pie-chart" aria-hidden="true"></i></a></li>
+			<li><a href="index.html"><i class="fa fa-plus" aria-hidden="true"></i></a></li>
+			<li><a href="index.html"><i class="fa fa-tags" aria-hidden="true"></i></a></li>
+			<li><a href="index.html"><i class="fa fa-handshake-o" aria-hidden="true"></i></a></li>
+			<li class="mx-animation_movement"><a href="index.html"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+		</ul>
+	</header>
+
+<script src="./assets/js/jquery-1.11.3.js"></script>
+<script src="./assets/js/spaceMenu.min.js"></script>
+
+<script>
+	$( document ).ready( function(){
+		$( '.menu' ).spaceMenu(
+			{
+				duration: 800
+			}
+		);
+	} );
+</script>
+
+<script src="./assets/js/spaceMenu.demo.js"></script>
+	
+</body>
+</html>
